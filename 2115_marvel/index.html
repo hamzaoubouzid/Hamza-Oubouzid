@@ -342,6 +342,9 @@
             };
             emailjs.send('service_rd0nk8c', 'template_w0dco8n', templateParams)
             .then(function(response) {
+              let  message = $("#message").val("");
+              let  Email = $("#email").val("");
+              let  name  = $("#name").val("");
             }, function(error) {
             });
         }
